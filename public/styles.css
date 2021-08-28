@@ -1,4 +1,34 @@
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url('./fonts/NotoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url('./fonts/NotoSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "NotoSans-Italic";
+  src: url('./fonts/NotoSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "NotoSans-BoldItalic";
+  src: url('./fonts/NotoSans-BoldItalic.ttf') format('truetype');
+}
+
 body {
   background-color: #755139;
   color: #F2EDD7;
+}
+
+.clock-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "NotoSans-Bold";
+  font-size: 64px;
 }

@@ -13,7 +13,7 @@ const Clock = (props) => {
   }, [currentTime])
 
   return (
-    <div>{currentTime}</div>
+    <div className="clock-wrapper">{currentTime}</div>
   )
 }
 

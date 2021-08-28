@@ -105,3 +105,4 @@ dist
 
 # Ignore Bundle codes
 *.bundle.js
+**/*.DS_Store
